@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1300</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1300</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>260</y>
+     <width>232</width>
+     <height>232</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+ border-style: solid;
+ border-width:1px;
+ border-radius:115px;
+ max-width:230px;
+ max-height:230px;
+ min-width:230px;
+ min-height:230px;
+ border-color: rgb(195, 195, 195);
+ background-image:url(:/iconos/Guardar_pro.png);
+background-position: center;
+background-color: rgb(230, 230, 230);
+}
+QPushButton:hover { 
+border-color:rgb(27, 134, 200);
+border-width:1px;
+background-color:rgb(229, 241, 251);
+}
+QPushButton:pressed{
+border-color:rgb(27, 134, 200);
+background-color: rgb(205, 228, 247);
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

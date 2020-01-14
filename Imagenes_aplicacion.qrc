@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="Iconos">
+    <file>Analisis_1.png</file>
+    <file>Analisis_2.png</file>
+    <file>Calendario_1.png</file>
+    <file>Calendario_2.png</file>
+    <file>Configuracion_1.png</file>
+    <file>Configuracion_2.png</file>
+    <file>Dietas_1.png</file>
+    <file>Dietas_2.png</file>
+    <file>Info_1.png</file>
+    <file>Info_2.png</file>
+    <file>Perfil_1.png</file>
+    <file>Perfil_2.png</file>
+  </qresource>
+</RCC>
